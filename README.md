@@ -160,7 +160,8 @@ In addition to the implementation of the elevator control system in System Veril
 
 ### Diagram 1 
 
-![](https://github.com/Engineer-Ayesha-Shafique/Generalized-Elevator-Control-System-Using-System-Verilog/blob/main/lift_fsm_diagram%201.png)
+![290151655-d7090e41-5ed9-43a8-968e-da8d499e8d0d](https://github.com/Cborgg/Elevator-Control-System/assets/118260187/4e8a4aab-33f5-4aaa-aa88-71a37d5a563e)
+
 
 ### Diagram 2
 

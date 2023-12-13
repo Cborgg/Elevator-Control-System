@@ -1,7 +1,4 @@
-# Elevator-Control-System
-Robust implementation of an Elevator Control System using Finite State Machine (FSM) design principles in Verilog 
-
-# Generalized-Elevator-Control-System-Using-System-Verilog
+# Elevator-Control-System-Using-System-Verilog
      
 
 ## Introduction 

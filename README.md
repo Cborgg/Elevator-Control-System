@@ -450,7 +450,10 @@ endmodule
 
 ```
 
-### Epwave 
+### Output Waveforms
 
 ![Untitled](https://github.com/Cborgg/Elevator-Control-System/assets/118260187/de5f9ac9-3ffe-4b01-ac2c-fba93d201a07)
+
+![Untitled](https://github.com/Cborgg/Elevator-Control-System/assets/118260187/a78b8783-36c1-4b5e-b1e3-dfbc39034dc0)
+
 

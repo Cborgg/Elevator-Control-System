@@ -452,4 +452,5 @@ endmodule
 
 ### Epwave 
 
-![](https://github.com/Engineer-Ayesha-Shafique/Generalized-Elevator-Control-System-Using-System-Verilog/blob/main/Epwave.png)
+![Untitled](https://github.com/Cborgg/Elevator-Control-System/assets/118260187/de5f9ac9-3ffe-4b01-ac2c-fba93d201a07)
+

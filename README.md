@@ -167,7 +167,7 @@ In addition to the implementation of the elevator control system in System Veril
 
 ![lift_state_diagram 2](https://github.com/Cborgg/Elevator-Control-System/assets/118260187/9af2da8d-700e-4b49-b801-7b2603fb6884)
 
-## Design.sv 
+## Elevator.v 
 
 ```
 
@@ -322,7 +322,7 @@ endmodule
 
 ```
 
-## Design.sv Explanation 
+## Elevator.v Explanation 
 
 ### 1. Module Declaration 
    - The code defines a Verilog module named "Lift8" with various input and output signals. 
@@ -378,13 +378,13 @@ In summary, this Verilog module represents an elevator control system that manag
 
 ```
 module Lift8_Tb();
-  logic clk, reset;
-  logic [2:0] req_floor;
-  logic [1:0] idle, door, Up, Down;
-  logic [2:0] current_floor;
-  logic [2:0] max_request, min_request;
-  logic [7:0] requests;
-  logic emergency_stop;
+ reg clk, reset;
+  reg [2:0] req_floor;
+  wire[1:0] idle, door, Up, Down;
+ wire [2:0] current_floor;
+ wire[2:0] max_request, min_request;
+ wire [7:0] requests;
+ reg emergency_stop;
 
   Lift8 dut(
     .clk(clk),
@@ -414,22 +414,14 @@ module Lift8_Tb();
     #30;
     req_floor = 4;
     
-    #10
+    #40
     
     // Simulate elevator operation
-    req_floor = 3; // Request floor 3
-    #20;
-    req_floor = 7; // Request floor 5
-    #20;
-    emergency_stop = 1; // Activate emergency stop
-    #20;
-    emergency_stop = 0; // Deactivate emergency stop
-    #10;
-    req_floor = 2; // Request floor 2
+    req_floor = 7; // Request floor 7
     #40;
+    req_floor = 2; // Request floor 2
+    #50;
     req_floor = 6; // Request floor 6
-    #20;
-    
     #20;
     req_floor = 1;
   end

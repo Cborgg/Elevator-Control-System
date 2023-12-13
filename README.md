@@ -165,7 +165,7 @@ In addition to the implementation of the elevator control system in System Veril
 
 ### Diagram 2
 
-![](https://github.com/Engineer-Ayesha-Shafique/Generalized-Elevator-Control-System-Using-System-Verilog/blob/main/lift_state_diagram%202.png)
+![lift_state_diagram 2](https://github.com/Cborgg/Elevator-Control-System/assets/118260187/9af2da8d-700e-4b49-b801-7b2603fb6884)
 
 ## Design.sv 
 
